@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwaitm</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="pagina.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="tarjeta" onclick="abrirLogin('walala')">Stupid Nigger</div>
+        <div class="tarjeta" onclick="abrirLogin('mila')">Milanesa</div>
+        <div class="tarjeta" onclick="abrirLogin('suricata')">Suricata</div>
+        <div class="tarjeta" onclick="abrirLogin('toti')">totisavampirme</div>
+        <div class="tarjeta" onclick="abrirLogin('pelao')">Pelao' serio</div>
+        <div class="tarjeta" onclick="abrirLogin('liza')">Profesora Liza</div>
+    </div>
+
+    <div class="login" id="login">
+        <div class="caja">
+            <h2 id="titulo"></h2>
+            <input type="password" id="password" placeholder="Ingresa contraseña">
+            <br>
+            <button onclick="verificar()">Entrar</button>
+            <button onclick="cerrarLogin()">Devolverse</button>
+            <p id="error"></p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="caja">
+            <h2 id="nombreModal"></h2>
+            <img id="imagen" src="" alt="Imagen">
+            <p id="texto"></p>
+            <button onclick="cerrarModal()">Cerrar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

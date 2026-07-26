@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1f1f1f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/1d/9b/6a/1d9b6aed5dde40b4d58006e44ed6d264.gif');
+    
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5,);
+    gap: 20px;
+    width: 900px;
+}
+
+.tarjeta {
+    background: #333;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tarjeta:hover {
+    background: #4b4b4b;
+    transform: scale(1.05);
+}
+
+.login,
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .75);
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.caja img {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+}       
+
+
+#texto{
+    white-space: pre-line;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+    margin-top: 15px;
+}
