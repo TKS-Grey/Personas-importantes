@@ -48,7 +48,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "img/anto.jpeg",
+        imagen: "anto.jpeg",
         texto: `Wenas, este es un mensaje para la vampira.
                 
                 Hola toti, este es un texto que te estoy escribiendo debido a mi *incapacidad, para expresarme.
