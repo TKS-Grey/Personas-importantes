@@ -16,7 +16,7 @@ const datos = {
 
     mila: {
         password: "194375911",
-        imagen:"img/uwu.jpg",
+        imagen:"uwu.jpg",
         texto: "Este es el mensaje de Mila."
     },
 
@@ -28,7 +28,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "toti.jpg",
+        imagen: "anto.jpeg",
         texto: "Este es el mensaje de Toti."
     },
 
@@ -42,6 +42,12 @@ const datos = {
         password: "908714329",
         imagen: "liza.jpg",
         texto: "Este es el mensaje de Liza."
+    },
+
+    mama: {
+        password: "913121296",
+        imagen: "mama.jpeg",
+        texto: "Este es el mensaje para máma."
     }
 
 };
