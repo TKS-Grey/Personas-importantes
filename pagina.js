@@ -2,7 +2,7 @@ const datos = {
 
     walala: {
         password: "193049179",
-        imagen: "walala.jpeg",
+        imagen: "img/walala.jpeg",
         texto: `Wena Víctor.
 
                     Si ves esto, significa que ya te he dado acceso a la página que he creado. Espero que te guste lo que voy a escribir.
@@ -16,8 +16,20 @@ const datos = {
 
     mila: {
         password: "194375911",
-        imagen:"uwu.jpg",
-        texto: "Este es el mensaje de Mila."
+        imagen:"img/uwu.jpg",
+        texto: `Holi mila.
+
+                    Si ves esto, significa finalmente termine de hacer tu parte :D.
+
+                    Socia, la quiero caleta, gracias por llegar a mi vida.
+
+                    *TÚ* fuiste una pieza fundamental en mi cambio, gracias a tu personalidad timida/extrovertida.
+
+                    Me di cuenta, de que podia expresarme mas, y seguir siendo timido (estando en mi zona de confort).
+                    
+                    Muchas gracias por llegar a mi vida, te quiero mucho, eres una de las personas más importantes de mi vida.
+                    
+                    i would i hug you :D hehehe`
     },
 
     suricata: {
@@ -28,7 +40,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "anto.jpeg",
+        imagen: "img/anto.jpeg",
         texto: "Este es el mensaje de Toti."
     },
 
@@ -46,7 +58,7 @@ const datos = {
 
     mama: {
         password: "913121296",
-        imagen: "mama.jpeg",
+        imagen: "img/mama.jpeg",
         texto: "Este es el mensaje para máma."
     }
 
