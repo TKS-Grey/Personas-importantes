@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     background: #1f1f1f;
     color: white;
     display: flex;
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.contenedor {
+.contenedor{
     width: 95vw;
     height: 95vh;
 
@@ -46,13 +46,13 @@ body {
     min-height: 120px;
 }
 
-.tarjeta:hover {
+.tarjeta:hover{
     background: #4b4b4b;
     transform: scale(1.03);
 }
 
 .login,
-.modal {
+.modal{
     display: none;
     position: fixed;
     inset: 0;
@@ -82,24 +82,24 @@ body {
     margin-bottom: 15px;
 }
 
-input {
+input{
     width: 100%;
     padding: 10px;
     font-size: 16px;
     margin-top: 10px;
 }
 
-button {
+button{
     margin-top: 15px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-#error {
+#error{
     color: red;
 }
 
-#texto {
+#texto{
     white-space: pre-line;
     text-align: justify;
     line-height: 1.6;
@@ -107,7 +107,7 @@ button {
     margin-top: 15px;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
     background: #1f1f1f;
     color: white;
@@ -120,14 +120,14 @@ body {
     
 }
 
-.contenedor {
+.contenedor{
     display: grid;
     grid-template-columns: repeat(5,);
     gap: 20px;
     width: 900px;
 }
 
-.tarjeta {
+.tarjeta{
     background: #333;
     border-radius: 15px;
     padding: 40px;
@@ -138,13 +138,13 @@ body {
     font-weight: bold;
 }
 
-.tarjeta:hover {
+.tarjeta:hover{
     background: #4b4b4b;
     transform: scale(1.05);
 }
 
 .login,
-.modal {
+.modal{
     display: none;
     position: fixed;
     inset: 0;
@@ -154,7 +154,7 @@ body {
     padding: 20px;
 }
 
-.caja {
+.caja{
     background: white;
     color: black;
 
@@ -169,26 +169,26 @@ body {
     text-align: center;
 }
 
-.caja img {
+.caja img{
     width: 250px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
 
-input {
+input{
     width: 90%;
     padding: 10px;
     font-size: 16px;
     margin-top: 10px;
 }
 
-button {
+button{
     margin-top: 15px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-#error {
+#error{
     color: red;
 }       
 
