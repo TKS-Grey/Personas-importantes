@@ -21,7 +21,7 @@ const datos = {
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
 
-                    Socia, la quiero caleta, gracias por llegar a mi vida.
+                    Señortia, la quiero mucho, gracias por llegar a mi vida.
 
                     *TÚ* fuiste una pieza fundamental en mi cambio, gracias a tu personalidad timida/extrovertida.
 
@@ -29,7 +29,7 @@ const datos = {
                     
                     Muchas gracias por llegar a mi vida, te quiero mucho, eres una de las personas más importantes de mi vida.
                     
-                    i would i hug you :D hehehe and do, hmm, something `
+                    i would i hug you :D hehehe, i like you `
     },
 
     suricata: {
