@@ -98,8 +98,13 @@ function verificar() {
     ocultarLogin();
 
     document.getElementById("nombreModal").textContent = usuario.toUpperCase();
-    console.log(datos[usuario].imagen);
+    console.log("Usuario:", usuario);
+    console.log(datos[usuario]);
+    console.log("Imagen:", datos[usuario].imagen);
     document.getElementById("imagen").src = datos[usuario].imagen;
+    const img = document.getElementById("imagen");
+    img.src = datos[usuario].imagen;
+    console.log("SRC final:", img.src);
     document.getElementById("texto").textContent = datos[usuario].texto;
 
     document.getElementById("modal").style.display = "flex";
