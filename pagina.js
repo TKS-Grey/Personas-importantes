@@ -21,15 +21,23 @@ const datos = {
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
 
-                    Señortia, la quiero mucho, gracias por llegar a mi vida.
+                    Señortia mila, la quiero mucho, posiblemente mucho más de lo que imaginas (bueno, no por nada comence a salir contigo en mayo).
 
-                    *TÚ* fuiste una pieza fundamental en mi cambio, gracias a tu personalidad timida/extrovertida.
+                    Tu personalidad, si bien a veces es un poco agresiva y cambiante, tambien tienes otro lado, que es el lado que más me gusta.
 
-                    Me di cuenta, de que podia expresarme mas, y seguir siendo timido (estando en mi zona de confort).
+                    Y ese es el lado cariñoso, aunque lo haces con verguenza, a veces erews una persona muy cariñosa, que le gusta abrazar a sus seres queridos.
+
+                    Se que solo te conozco desde hace unos poco meses (5), pero en el poco tiempo que llevo contigo, puedo decir que eres una persona en la cual:
                     
-                    Muchas gracias por llegar a mi vida, te quiero mucho, eres una de las personas más importantes de mi vida.
+                    Confio, Aprecio, He llegado a amar profundamente, y bueno, incluso ahora, me sigues gustando, eso es debido a tu forma de ser.
                     
-                    i would i hug you :D hehehe, i like you `
+                    I would i hug you :D hehehe, i like you to much, much than i show to you, sorry for not be too expresive.
+                    
+                    I can promise something to you, (my promise, are important to me), until you don't do something bad to me, i don't leave you.
+                    
+                    beacuse i love you but i don't show it "hmm" (insert tsundere sound).
+                    
+                    Pero bueno, eso, te quiero mucho, y cómo ya dije, eres una de las personas más importantes en mi vida, no se que habria hecho sin ti este tiempo.`
     },
 
     suricata: {
@@ -65,7 +73,11 @@ const datos = {
                 
                 Recuerdalo, somos amigos, si alguna vez te sientes mal, recuerda que mi promesa sigue en pie.
                 
-                Bueno, eso, chau, tkm, cuidate :P`
+                Bueno, eso, chau, tkm, cuidate :P.
+                
+                (<Esto lo agregue despues>).
+                
+                No nada Xd`
     },
 
     pelao: {
