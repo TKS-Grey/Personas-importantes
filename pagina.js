@@ -105,7 +105,13 @@ const datos = {
     mama: {
         password: "913121296",
         imagen: "mama.jpeg",
-        texto: "Este es el mensaje para máma."
+        texto: `Hola, esto es para usted mamá.
+        
+                Este es un texto que le estoy escribiendo (me tuve que poner a programar para decirlo) debido a que no se cómo expresarme.
+                
+                Bien ya sabe, que soy tengo nula capacidad de habilidades sociales, debidoa ello, no se cómo demostrar afecto.
+                
+                Le queria decir que la quiero mucho, aunque no se note debido a mi forma de ser :D`
     }
 
 };
