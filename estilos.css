@@ -44,19 +44,36 @@ body {
     align-items: center;
 }
 
+
 .caja {
     background: white;
     color: black;
+    width: 70vw;
+    height: 90vh;
     padding: 30px;
     border-radius: 15px;
-    text-align: center;
-    width: 350px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .caja img {
-    width: 250px;
+    max-width: 350px;
+    width: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#texto {
+    white-space: pre-line;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+    margin-top: 15px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input {
