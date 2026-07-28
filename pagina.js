@@ -85,7 +85,7 @@ const datos = {
         imagen: "pelao.jpg",
         texto: `Esto es para el pelao.
         
-                Wena pelao, como tai´?, espero que estes bien :P.
+                Wena pelao, como tai?, espero que estes bien :P.
                 
                 Se que en general, no hablamos tanto, sino que principalmente webeamos.
                 
@@ -111,7 +111,7 @@ const datos = {
                 
                 Me mostro un nuevo mundo, que yo desconocia casi que totalmente, gracias a usted, ahora puedo crear cosas cómo esta.
                 
-                Adicionalmente, otro punto más a favor para usted, es que usted, cómo casi ningun/a profesor/a, se preocupa por la estabilidad mental de sus alumnos`
+                Adicionalmente, otro punto más a favor para usted, es que usted, cómo casi ningun/a profesor/a, se preocupa por la estabilidad mental de sus alumnos.`
     },
 
     mama: {
@@ -123,7 +123,7 @@ const datos = {
                 
                 Bien ya sabe, que soy tengo nula capacidad de habilidades sociales, debidoa ello, no se cómo demostrar afecto.
                 
-                Le queria decir que la quiero mucho, aunque no se note debido a mi forma de ser :D`
+                Le queria decir que la quiero mucho, aunque no se note debido a mi forma de ser :D.`
     }
 
 };
