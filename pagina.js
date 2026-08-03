@@ -21,23 +21,7 @@ const datos = {
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
 
-                    Señortia mila, la quiero mucho, posiblemente mucho más de lo que imaginas (bueno, no por nada comence a salir contigo en mayo).
-
-                    Tu personalidad, si bien a veces es un poco agresiva y cambiante, tambien tienes otro lado, que es el lado que más me gusta.
-
-                    Y ese es el lado cariñoso, aunque lo haces con verguenza, a veces eres una persona muy cariñosa, que le gusta abrazar a sus seres queridos.
-
-                    Se que solo te conozco desde hace unos poco meses (5), pero en el poco tiempo que llevo contigo, puedo decir que eres una persona en la cual:
-                    
-                    Confio, Aprecio, y llegue a amar profundamente, eso es debido a tu forma de ser conmigo.
-                    
-                    I would i hug you :D hehehe, i like you to much, sorry for not be too expresive.
-                    
-                    I can promise something to you, (my promise, are important to me), until you don't do something bad to me or a friend, i don't leave you.
-                    
-                    beacuse i love you but i don't show it "hmm" (insert tsundere sound).
-                    
-                    Pero bueno, eso, te quiero mucho, y cómo ya dije, eres una de las personas más importantes en mi vida.`
+                    .`
     },
 
     suricata: {
@@ -82,7 +66,7 @@ const datos = {
 
     pelao: {
         password: "916238977",
-        imagen: "pelao.jpg",
+        imagen: "pelao.jpeg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
