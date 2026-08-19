@@ -133,65 +133,42 @@ const datos = {
 
 let usuario = "";
 
-
 function abrirLogin(nombre) {
-
     usuario = nombre;
-
     document.getElementById("login").style.display = "flex";
     document.getElementById("titulo").textContent = "Contraseña para " + nombre;
     document.getElementById("password").value = "";
     document.getElementById("error").textContent = "";
-
 }
 
 
 function cerrarLogin() {
-
     alert("¿Para qué te devuelves? xd");
-
     ocultarLogin();
-
 }
 
-
 function ocultarLogin() {
-
     document.getElementById("login").style.display = "none";
-
 }
 
 
 function verificar() {
-
     const pass = document.getElementById("password").value;
-
     if (pass === datos[usuario].password) {
-
         ocultarLogin();
-
         document.getElementById("nombreModal").textContent = usuario.toUpperCase();
-
         const img = document.getElementById("imagen");
         img.src = datos[usuario].imagen;
-
         const texto = document.getElementById("texto");
 
-        // Si la persona tiene textoHTML, muestra HTML
         if (datos[usuario].textoHTML) {
 
             texto.innerHTML = datos[usuario].textoHTML;
-
         } else {
-
             texto.textContent = datos[usuario].texto;
-
         }
-
         document.getElementById("modal").style.display = "flex";
-
     } else {
-
         document.getElementById("error").textContent = "Contraseña incorrecta";
 
     }
@@ -200,48 +177,29 @@ function verificar() {
 
 
 function reproducirCancion() {
-
     const musica = document.getElementById("musica");
     const boton = document.getElementById("btnMusica");
-
     if (musica.paused) {
-
         musica.play();
-
         boton.textContent = '⏸ Pausar "Nos keremos tanto"';
-
     } else {
-
         musica.pause();
-
         boton.textContent = '▶ Reproducir "Nos keremos tanto"';
-
     }
-
 }
-
-
 // Cuando termina la canción, el botón vuelve a decir "Reproducir"
 document.getElementById("musica").addEventListener("ended", function () {
-
     const boton = document.getElementById("btnMusica");
-
     if (boton) {
-
         boton.textContent = '▶ Reproducir "Nos keremos tanto"';
-
     }
-
 });
 
 
 function cerrarModal() {
-
     const musica = document.getElementById("musica");
-
     musica.pause();
     musica.currentTime = 0;
-
     window.location.href = "index.html";
 
 }
