@@ -2,7 +2,7 @@ const datos = {
 
     walala: {
         password: "193049179",
-        imagen: "walala.jpeg",
+        imagen: "img/walala.jpeg",
         texto: `Wena Víctor.
 
                     Si ves esto, significa que ya te he dado acceso a la página que he creado. Espero que te guste lo que voy a escribir.
@@ -16,7 +16,7 @@ const datos = {
 
     mila: {
         password: "194375911",
-        imagen:"uwu.jpg",
+        imagen:"img/uwu.jpg",
         texto: `Holi mila.
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
@@ -42,7 +42,7 @@ const datos = {
 
     suricata: {
         password: "109470815",
-        imagen: "suricata.jpg",
+        imagen: "img/suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
@@ -56,7 +56,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "anto.jpeg",
+        imagen: "img/anto.jpeg",
         textoHTML: `
         <p>Holi, este es un mensajito con musica para la vampira :3.</p>
 
@@ -85,7 +85,7 @@ const datos = {
 
     pelao: {
         password: "916238977",
-        imagen: "pelao.jpg",
+        imagen: "img/pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -103,7 +103,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "liza.jpg",
+        imagen: "img/liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
@@ -119,7 +119,7 @@ const datos = {
 
     mama: {
         password: "913121296",
-        imagen: "mama.jpeg",
+        imagen: "img/mama.jpeg",
         texto: `Hola, esto es para usted mamá.
         
                 Este es un texto que le estoy escribiendo (me tuve que poner a programar para decirlo) debido a que no se cómo expresarme.
@@ -179,27 +179,39 @@ function verificar() {
 function reproducirCancion() {
     const musica = document.getElementById("musica");
     const boton = document.getElementById("btnMusica");
+
     if (musica.paused) {
-        musica.play();
-        boton.textContent = '⏸ Pausar "Nos keremos tanto"';
+
+        musica.play()
+            .then(() => {
+                boton.textContent = '⏸ Pausar "Nos keremos tanto"';
+            })
+            .catch((error) => {
+                console.error("Error al reproducir:", error);
+                alert("No se pudo reproducir la canción.");
+            });
+
     } else {
+
         musica.pause();
         boton.textContent = '▶ Reproducir "Nos keremos tanto"';
+
     }
 }
-// Cuando termina la canción, el botón vuelve a decir "Reproducir"
-document.getElementById("musica").addEventListener("ended", function () {
-    const boton = document.getElementById("btnMusica");
-    if (boton) {
-        boton.textContent = '▶ Reproducir "Nos keremos tanto"';
-    }
-});
 
 
-function cerrarModal() {
+document.addEventListener("DOMContentLoaded", function () {
+
     const musica = document.getElementById("musica");
-    musica.pause();
-    musica.currentTime = 0;
-    window.location.href = "index.html";
 
-}
+    musica.addEventListener("ended", function () {
+
+        const boton = document.getElementById("btnMusica");
+
+        if (boton) {
+            boton.textContent = '▶ Reproducir "Nos keremos tanto"';
+        }
+
+    });
+
+});
