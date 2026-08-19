@@ -16,7 +16,7 @@ const datos = {
 
     mila: {
         password: "194375911",
-        imagen:"img/uwu.jpg",
+        imagen:"uwu.jpg",
         texto: `Holi mila.
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
@@ -56,7 +56,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "img/anto.jpeg",
+        imagen: "anto.jpeg",
         textoHTML: `
         <p>Holi, este es un mensajito con musica para la vampira :3.</p>
 
@@ -85,7 +85,7 @@ const datos = {
 
     pelao: {
         password: "916238977",
-        imagen: "img/pelao.jpg",
+        imagen: "pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -103,7 +103,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "img/liza.jpg",
+        imagen: "liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
@@ -119,7 +119,7 @@ const datos = {
 
     mama: {
         password: "913121296",
-        imagen: "img/mama.jpeg",
+        imagen: "mama.jpeg",
         texto: `Hola, esto es para usted mamá.
         
                 Este es un texto que le estoy escribiendo (me tuve que poner a programar para decirlo) debido a que no se cómo expresarme.
