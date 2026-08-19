@@ -16,17 +16,33 @@ const datos = {
 
     mila: {
         password: "194375911",
-        imagen:"uwu.jpg",
+        imagen:"img/uwu.jpg",
         texto: `Holi mila.
 
                     Si ves esto, significa finalmente termine de hacer tu parte :D.
 
-                    .`
+                    Señortia mila, la quiero mucho, posiblemente mucho más de lo que imaginas (bueno, no por nada comence a salir contigo en mayo).
+
+                    Tu personalidad, si bien a veces es un poco agresiva y cambiante, tambien tienes otro lado, que es el lado que más me gusta.
+
+                    Y ese es el lado cariñoso, aunque lo haces con verguenza, a veces erews una persona muy cariñosa, que le gusta abrazar a sus seres queridos.
+
+                    Se que solo te conozco desde hace unos poco meses (5), pero en el poco tiempo que llevo contigo, puedo decir que eres una persona en la cual:
+                    
+                    Confio, Aprecio, He llegado a amar profundamente, y bueno, incluso ahora, me sigues gustando, eso es debido a tu forma de ser.
+                    
+                    I would i hug you :D hehehe, i like you to much, much than i show to you, sorry for not be too expresive.
+                    
+                    I can promise something to you, (my promise, are important to me), until you don't do something bad to me, i don't leave you.
+                    
+                    beacuse i love you but i don't show it "hmm" (insert tsundere sound).
+                    
+                    Pero bueno, eso, te quiero mucho, y cómo ya dije, eres una de las personas más importantes en mi vida, no se que habria hecho sin ti este tiempo.`
     },
 
     suricata: {
         password: "109470815",
-        imagen: "suricata.jpg",
+        imagen: "img/suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
@@ -40,33 +56,36 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "anto.jpeg",
-        texto: `Wenas, este es un mensaje para la vampira.
-                
-                Hola toti, este es un texto que te estoy escribiendo debido a mi *incapacidad, para expresarme.
-                
-                Quiero que sepas, que pese a la casi nula comuniacion que hay actualmente, sigues siendo una de las personas mas importantes de mi vida.
-                
-                Te quiero mucho, espero que te vaya bien en la vida y en el psicologo :D.
-                
-                Tambien te queria decir, que la cancion "Un rayo de luz", es muy linda y triste.
-                
-                Esa cancion me hizo tener una introspectiva, y sinceramente, no se cómo pudiste pasar por todo eso (marzo>).
-                
-                Tu eres muy fuerte, has pasado por muchas cosas, pero pese a ello, sigues adelante, estoy seguro que nada ni nadie te podra detener de cumplir tus sueños.
-                
-                Recuerdalo, somos amigos, si alguna vez te sientes mal, recuerda que mi promesa sigue en pie.
-                
-                Bueno, eso, chau, tkm, cuidate :P.
-                
-                (<Esto lo agregue despues>).
-                
-                No nada Xd`
+        imagen: "img/anto.jpeg",
+        textoHTML: `
+        <p>Holi, este es un mensajito con musica para la vampira :3.</p>
+
+        <button id="btnMusica" onclick="reproducirCancion()">
+            Toti escucha esto por mientras lees :3
+        </button>
+
+        <p>Hola anto, esto lo hago, porque como en la vez anterior,remarco, me expreso mal :v</p>
+
+        <p>Some parts, are wirting in eanglish, because i feel a litle nervous when i eplain my feelings (YK).</p>
+
+        <p>Espero que te siga llendo bien, como ha sido en el ultimo tiempo :D.</p>
+
+        <p>Esto lo hago para recalcar (btw: ya se nota por lo que te escribi en la tarde).</p>
+
+        <p>El mucho y gran aprecio, respeto, cariño, querer cuidar y  comodidad (algo que siento con solo un par de personas) que siento contigo</p>
+
+        <p>Espero que sepas, o más bien recuerdes, que siempre puedes contar conmigo.</p>
+
+        <p>Despues de todo, al menos yo, aun tengo el mismo cariño y respeto hacia ti,.</p>
+
+        <p>Wenu, eso, adious, Te Kiero Mucho Camarada :3 cuidate.</p>
+
+    `
     },
 
     pelao: {
         password: "916238977",
-        imagen: "pelao.jpeg",
+        imagen: "img/pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -84,7 +103,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "liza.jpg",
+        imagen: "img/liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
@@ -100,7 +119,7 @@ const datos = {
 
     mama: {
         password: "913121296",
-        imagen: "mama.jpeg",
+        imagen: "img/mama.jpeg",
         texto: `Hola, esto es para usted mamá.
         
                 Este es un texto que le estoy escribiendo (me tuve que poner a programar para decirlo) debido a que no se cómo expresarme.
@@ -114,6 +133,7 @@ const datos = {
 
 let usuario = "";
 
+
 function abrirLogin(nombre) {
 
     usuario = nombre;
@@ -125,6 +145,7 @@ function abrirLogin(nombre) {
 
 }
 
+
 function cerrarLogin() {
 
     alert("¿Para qué te devuelves? xd");
@@ -133,30 +154,43 @@ function cerrarLogin() {
 
 }
 
+
 function ocultarLogin() {
+
     document.getElementById("login").style.display = "none";
+
 }
+
 
 function verificar() {
 
-    let pass = document.getElementById("password").value;
+    const pass = document.getElementById("password").value;
 
     if (pass === datos[usuario].password) {
 
-    ocultarLogin();
+        ocultarLogin();
 
-    document.getElementById("nombreModal").textContent = usuario.toUpperCase();
-    console.log("Usuario:", usuario);
-    console.log(datos[usuario]);
-    console.log("Imagen:", datos[usuario].imagen);
-    document.getElementById("imagen").src = datos[usuario].imagen;
-    const img = document.getElementById("imagen");
-    img.src = datos[usuario].imagen;
-    console.log("SRC final:", img.src);
-    document.getElementById("texto").textContent = datos[usuario].texto;
+        document.getElementById("nombreModal").textContent = usuario.toUpperCase();
 
-    document.getElementById("modal").style.display = "flex";
-    }else {
+        const img = document.getElementById("imagen");
+        img.src = datos[usuario].imagen;
+
+        const texto = document.getElementById("texto");
+
+        // Si la persona tiene textoHTML, muestra HTML
+        if (datos[usuario].textoHTML) {
+
+            texto.innerHTML = datos[usuario].textoHTML;
+
+        } else {
+
+            texto.textContent = datos[usuario].texto;
+
+        }
+
+        document.getElementById("modal").style.display = "flex";
+
+    } else {
 
         document.getElementById("error").textContent = "Contraseña incorrecta";
 
@@ -164,7 +198,49 @@ function verificar() {
 
 }
 
+
+function reproducirCancion() {
+
+    const musica = document.getElementById("musica");
+    const boton = document.getElementById("btnMusica");
+
+    if (musica.paused) {
+
+        musica.play();
+
+        boton.textContent = '⏸ Pausar "Nos keremos tanto"';
+
+    } else {
+
+        musica.pause();
+
+        boton.textContent = '▶ Reproducir "Nos keremos tanto"';
+
+    }
+
+}
+
+
+// Cuando termina la canción, el botón vuelve a decir "Reproducir"
+document.getElementById("musica").addEventListener("ended", function () {
+
+    const boton = document.getElementById("btnMusica");
+
+    if (boton) {
+
+        boton.textContent = '▶ Reproducir "Nos keremos tanto"';
+
+    }
+
+});
+
+
 function cerrarModal() {
+
+    const musica = document.getElementById("musica");
+
+    musica.pause();
+    musica.currentTime = 0;
 
     window.location.href = "index.html";
 
