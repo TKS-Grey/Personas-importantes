@@ -42,7 +42,7 @@ const datos = {
 
     suricata: {
         password: "109470815",
-        imagen: "img/suricata.jpg",
+        imagen: "suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
