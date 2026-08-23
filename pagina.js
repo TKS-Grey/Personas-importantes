@@ -42,7 +42,7 @@ const datos = {
 
     suricata: {
         password: "109470815",
-        imagen: "img/suricata.jpg",
+        imagen: "suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
@@ -56,7 +56,7 @@ const datos = {
 
     toti: {
         password: "874310289",
-        imagen: "img/anto.jpeg",
+        imagen: "anto.jpeg",
         textoHTML: `
         <p>Holi, este es un mensajito con musica para la vampira :3.</p>
 
@@ -85,7 +85,7 @@ const datos = {
 
     pelao: {
         password: "916238977",
-        imagen: "img/pelao.jpg",
+        imagen: "pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -103,7 +103,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "img/liza.jpg",
+        imagen: "liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
