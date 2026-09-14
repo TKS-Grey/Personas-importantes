@@ -1,5 +1,4 @@
 const datos = {
-
     walala: {
         password: "193049179",
         imagen: "walala.jpeg",
@@ -14,35 +13,9 @@ const datos = {
                     Cuando estoy mal, me das consejos, y cuando estoy bien, lo potencias. Gracias por wearme tanto xD.`
     },
 
-    mila: {
-        password: "194375911",
-        imagen:"img/uwu.jpg",
-        texto: `Holi mila.
-
-                    Si ves esto, significa finalmente termine de hacer tu parte :D.
-
-                    Señortia mila, la quiero mucho, posiblemente mucho más de lo que imaginas (bueno, no por nada comence a salir contigo en mayo).
-
-                    Tu personalidad, si bien a veces es un poco agresiva y cambiante, tambien tienes otro lado, que es el lado que más me gusta.
-
-                    Y ese es el lado cariñoso, aunque lo haces con verguenza, a veces erews una persona muy cariñosa, que le gusta abrazar a sus seres queridos.
-
-                    Se que solo te conozco desde hace unos poco meses (5), pero en el poco tiempo que llevo contigo, puedo decir que eres una persona en la cual:
-                    
-                    Confio, Aprecio, He llegado a amar profundamente, y bueno, incluso ahora, me sigues gustando, eso es debido a tu forma de ser.
-                    
-                    I would i hug you :D hehehe, i like you to much, much than i show to you, sorry for not be too expresive.
-                    
-                    I can promise something to you, (my promise, are important to me), until you don't do something bad to me, i don't leave you.
-                    
-                    beacuse i love you but i don't show it "hmm" (insert tsundere sound).
-                    
-                    Pero bueno, eso, te quiero mucho, y cómo ya dije, eres una de las personas más importantes en mi vida, no se que habria hecho sin ti este tiempo.`
-    },
-
     suricata: {
         password: "109470815",
-        imagen: "suricata.jpg",
+        imagen: "img/suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
@@ -55,37 +28,64 @@ const datos = {
     },
 
     toti: {
-        password: "874310289",
-        imagen: "anto.jpeg",
-        textoHTML: `
-        <p>Holi, este es un mensajito con musica para la vampira :3.</p>
+    password: "874310289",
+    imagen: "img/anto.jpeg",
+    textoHTML: `
+        <p>Holi, este es un pequeño texto con musica y videos para la vampira (toti) :3.</p>
 
         <button id="btnMusica" onclick="reproducirCancion()">
             Toti escucha esto por mientras lees :3
         </button>
 
-        <p>Hola anto, esto lo hago, porque como en la vez anterior,remarco, me expreso mal :v</p>
+        <p>Hola toti, como estas?, espero que muy bien :D, yo ando escribiendote esto, un dia lunes, casi a las 2 AM.</p>
 
-        <p>Some parts, are wirting in eanglish, because i feel a litle nervous when i eplain my feelings (YK).</p>
+        <p>Porque escribiria algo y me daria la paja de estar a altas horas de la noche en el pc?</p>
 
-        <p>Espero que te siga llendo bien, como ha sido en el ultimo tiempo :D.</p>
+        <p>Porque como ya te lo eh dicho, y te lo seguire diciendo... Te Quiero Mucho :3.</p>
 
-        <p>Esto lo hago para recalcar (btw: ya se nota por lo que te escribi en la tarde).</p>
+        <p>Eres una persona muy especial para mi y una de las más importantes en mi vida.</p>
 
-        <p>El mucho y gran aprecio, respeto, cariño, querer cuidar y  comodidad (algo que siento con solo un par de personas) que siento contigo</p>
+        <p>Despues de todo, nosotros dos hemos pasado por muchas cosas juntos. tanto buenas como malas.</p>
 
-        <p>Espero que sepas, o más bien recuerdes, que siempre puedes contar conmigo.</p>
+        <p>Pero pese a ello, hemos seguido siendo amigos, y eso es algo que te quiero agraceder de la forma mas sincera que puedo, te pregunatras como.</p>
 
-        <p>Despues de todo, al menos yo, aun tengo el mismo cariño y respeto hacia ti,.</p>
+        <p>Bien, de la siguiente forma:</p>
 
-        <p>Wenu, eso, adious, Te Kiero Mucho Camarada :3 cuidate.</p>
+        <p>-Escribiendote esto.</p>
 
+        <p>-Haciendolo con el cariño que te mereces</p>
+
+        <p>-Llorando en el proceso (ahora mismo XD)</p>
+
+        <p>-Escuchando musica que se que te gusta :3</p>
+
+        <p></p>
+        
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <video controls width="400" height="300">
+            <source src="thank_you_music_ahora_viendote.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+        </video>
+        <p></p>
+        <p></p>
+        <p></p> 
+         <video controls width="400" height="300">
+            <source src="thank_you_music_toma_el_mundo.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+        </video>
     `
     },
 
     pelao: {
         password: "916238977",
-        imagen: "pelao.jpg",
+        imagen: "img/pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -103,7 +103,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "liza.jpg",
+        imagen: "img/liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
@@ -222,3 +222,27 @@ function reproducirCancion() {
 
     }
 }
+
+function cambiarModo() {
+    const cuerpo = document.body;
+    const boton = document.getElementById("btnModoOscuro");
+
+    cuerpo.classList.toggle("modo-oscuro");
+
+    if (cuerpo.classList.contains("modo-oscuro")) {
+        boton.textContent = "☀️ Modo claro";
+        localStorage.setItem("modo", "oscuro");
+    } else {
+        boton.textContent = "🌙 Modo oscuro";
+        localStorage.setItem("modo", "claro");
+    }
+}
+
+window.addEventListener("DOMContentLoaded", function() {
+    const boton = document.getElementById("btnModoOscuro");
+
+    if (localStorage.getItem("modo") === "oscuro") {
+        document.body.classList.add("modo-oscuro");
+        boton.textContent = "☀️ Modo claro";
+    }
+});
