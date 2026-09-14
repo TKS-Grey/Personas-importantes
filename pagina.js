@@ -53,39 +53,31 @@ const datos = {
 
         <p>-Escribiendote esto.</p>
 
-        <p>-Haciendolo con el cariño que te mereces</p>
-
         <p>-Llorando en el proceso (ahora mismo XD)</p>
 
         <p>-Escuchando musica que se que te gusta :3</p>
 
-        <p></p>
+        <p>Lo que quiero decir, es que eres importante, y ya XD.</p>
         
-        <p></p>
-
-        <p></p>
-
-        <p></p>
-
-        <p></p>
+        <p>El meo texto pa' decir eso xdd.</p>
 
         <video controls width="400" height="300">
             <source src="thank_you_music_ahora_viendote.mp4" type="video/mp4">
-            Tu navegador no puede reproducir este video.
+
         </video>
-        <p></p>
-        <p></p>
-        <p></p> 
+        <p>Bueno eso toti, dejo de wear</p>
+        <p>Espero que este mensajito haya sido de tu agrado y que te haya alegrado el día :D</p>
+        <p>Adios, que sigamos teniendo una</p> 
          <video controls width="400" height="300">
             <source src="thank_you_music_toma_el_mundo.mp4" type="video/mp4">
-            Tu navegador no puede reproducir este video.
+
         </video>
     `
     },
 
     pelao: {
         password: "916238977",
-        imagen: "img/pelao.jpg",
+        imagen: "pelao.jpg",
         texto: `Esto es para el pelao.
         
                 Wena pelao, como tai?, espero que estes bien :P.
@@ -103,7 +95,7 @@ const datos = {
 
     liza: {
         password: "908714329",
-        imagen: "img/liza.jpg",
+        imagen: "liza.jpg",
         texto: `Hola Profesora Liza.
         
                 Hago este texto debido a mi nula capacidad de expresion (el loco tea).
@@ -114,7 +106,7 @@ const datos = {
                 
                 Me mostro un nuevo mundo, que yo desconocia casi que totalmente, gracias a usted, ahora puedo crear cosas cómo esta.
                 
-                Adicionalmente, otro punto más a favor para usted, es que usted, cómo casi ningun/a profesor/a, se preocupa por la estabilidad mental de sus alumnos.`
+                Adicionalmente, otro punto más a favor para usted, es que usted, cómo casi ningun/a profesor/a, se preocupa por la estabilidad mental de sus alumnos :3.`
     },
 
     mama: {
@@ -126,7 +118,9 @@ const datos = {
                 
                 Bien ya sabe, que soy tengo nula capacidad de habilidades sociales, debidoa ello, no se cómo demostrar afecto.
                 
-                Le queria decir que la quiero mucho, aunque no se note debido a mi forma de ser :D.`
+                Le queria decir que la quiero mucho, aunque no se note debido a mi forma de ser :D.
+
+                .`
     }
 
 };
