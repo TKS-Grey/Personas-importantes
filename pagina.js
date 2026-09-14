@@ -1,17 +1,21 @@
 const datos = {
     walala: {
-        password: "193049179",
-        imagen: "walala.jpeg",
-        texto: `Wena Víctor.
+            password: "193049179",
+            imagen: "walala.jpeg",
+            texto: `Wena Víctor.
 
-                    Si ves esto, significa que ya te he dado acceso a la página que he creado. Espero que te guste lo que voy a escribir.
+                        Si ves esto, significa que ya te he dado acceso a la página que he creado. Espero que te guste lo que voy a escribir.
 
-                    Socio, te quiero caleta, aunque no lo voy a demostrar ni a palo (la wea tsundere XDDD). Muchas gracias por ser mi amigo.
+                        Socio, te quiero caleta, aunque no lo voy a demostrar ni a palo (la wea tsundere XDDD). Muchas gracias por ser mi amigo.
 
-                    Gracias por estar ahí en las buenas y en las malas. Cuando nadie más apaña a salir, tú sí lo haces.
+                        Gracias por estar ahí en las buenas y en las malas. Cuando nadie más apaña a salir, tú sí lo haces.
 
-                    Cuando estoy mal, me das consejos, y cuando estoy bien, lo potencias. Gracias por wearme tanto xD.`
-    },
+                        Cuando estoy mal, me das consejos, y cuando estoy bien, lo potencias. Gracias por wearme tanto xD.
+                        
+                        <video controls width="400" height="300">
+                           <source src="thank_you_music_toma_el_mundo.mp4" type="video/mp4">
+                        </video>`
+        },
 
     suricata: {
         password: "109470815",
