@@ -15,7 +15,7 @@ const datos = {
 
     suricata: {
         password: "109470815",
-        imagen: "img/suricata.jpg",
+        imagen: "suricata.jpg",
         texto: `Esto es para mi querida hermana mayor :D.
         
                 Hola, se que en general no hablamos tanto cómo antes, debido a qeu tu ahora trabajas y yo estoy en el Tp.
@@ -29,7 +29,7 @@ const datos = {
 
     toti: {
     password: "874310289",
-    imagen: "img/anto.jpeg",
+    imagen: "anto.jpeg",
     textoHTML: `
         <p>Holi, este es un pequeño texto con musica y videos para la vampira (toti) :3.</p>
 
